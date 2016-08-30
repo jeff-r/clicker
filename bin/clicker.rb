@@ -1,5 +1,5 @@
-require "./mouse.rb"
-require "./mouse_tracker"
+require "./lib/mouse.rb"
+require "./lib/mouse_tracker"
 
 mouse = Mouse.new
 tracker = MouseTracker.new mouse
