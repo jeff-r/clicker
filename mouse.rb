@@ -46,4 +46,3 @@ class Mouse
     InputEvent.getMaskForButton 1
   end
 end
-

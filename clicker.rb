@@ -1,9 +1,11 @@
 require "./mouse.rb"
+require "./mouse_tracker"
 
 mouse = Mouse.new
+tracker = MouseTracker.new mouse
 
 while true do
-  puts mouse.has_moved?
-  sleep 1
+  tracker.tick
+  sleep 0.1
 end
 
